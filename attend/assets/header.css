@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+
+  
+  .header{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:60px;
+    background-color: rgb(160, 170, 175);
+  }
+
+  .nav-links{
+    display:flex;
+    justify-content:space-around;
+  }
+
+  .nav-links li{
+    list-style:none;
+    text-decoration:none;
+    margin-right:60px;
+  }
+  .navlinks li:hover {
+    background-color: white;
+    color: blue;
+  }
+  .nav-links li a{
+    text-decoration:none;
+    color:rgb(8, 1, 1);
+    font-weight:600;
+    font-family:"Montserrat",sans-serif;
+  }
+
+  .buttons{
+    display:flex;
+    justify-content:space-around;
+  }
+
+  .logout{
+    margin-left:40px;
+    text-decoration:none;
+    color:#fff;
+    background-color:rgb(5, 62, 70);
+    padding:5px 10px 5px 10px;
+    border-radius:3px;
+  }
+
+  .buttons a{
+    color:white;
+  }
